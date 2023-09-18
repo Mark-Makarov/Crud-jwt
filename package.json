@@ -1,0 +1,37 @@
+{
+  "name": "server-todo",
+  "version": "1.2.3",
+  "main": "server",
+  "type": "module",
+  "module": "esnext",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "prod": "cross-env NODE_ENV=production server.js",
+    "format": "prettier --write .",
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "bcrypt": "5.1.1",
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "cross-env": "7.0.3",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "express-validator": "6.15.0",
+    "jsonwebtoken": "9.0.2",
+    "pg": "8.11.3",
+    "sequelize": "6.33.0"
+  },
+  "devDependencies": {
+    "eslint": "8.0.1",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-n": "15.0.0 || 16.0.0 ",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-promise": "6.0.0",
+    "nodemon": "3.0.1",
+    "prettier": "3.0.3"
+  }
+}
