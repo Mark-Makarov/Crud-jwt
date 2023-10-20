@@ -1,5 +1,3 @@
-## Тестовое задание, backend jwt authorize + crud
-
 ## Запуск:
 
 1) в docker:
@@ -15,7 +13,3 @@
 - NodeJs + Express
 - Postgresql
 - Docker
-
-### P.s. от автора:
-
-В любом случае благодарю за уделенное время, ожидаю фидбек)
